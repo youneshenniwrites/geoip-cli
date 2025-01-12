@@ -1,0 +1,26 @@
+{
+  "name": "geoip-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to get geolocation from IP addresses using IPStack API",
+  "main": "dist/index.js",
+  "bin": {
+    "geoip": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js 8.8.8.8",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.10",
+    "@types/node": "^20.9.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2"
+  }
+}
