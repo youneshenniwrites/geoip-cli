@@ -1,4 +1,4 @@
-# GeoIP CLI Tool (Node.js Version)
+# GeoIP CLI Tool
 
 A command-line interface tool that queries the IPStack API to obtain the latitude and longitude coordinates for a given IP address.
 
