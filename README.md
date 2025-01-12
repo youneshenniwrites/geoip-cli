@@ -27,8 +27,10 @@ A command-line interface tool that queries the IPStack API to obtain the latitud
 3. Build the project:
    `npm run build`
 
-4. Set up your IPStack API key:
-   echo `"IPSTACK_API_KEY=your_api_key_here" > .env`
+4. Go to [IPStack](https://ipstack.com/) and create an account to generate your API key.
+   Create a `.env` file in the root of the project and add your API key:
+
+   `echo "IPSTACK_API_KEY=your_api_key_here" > .env`
 
 ### Docker Installation
 
