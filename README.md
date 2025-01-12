@@ -68,7 +68,8 @@ The tool outputs latitude and longitude as comma-separated values:
 ## Testing
 
 Run the test suite:
-npm test
+
+- `npm test`
 
 ## Troubleshooting
 
