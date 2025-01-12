@@ -23,21 +23,21 @@ A command-line interface tool that queries the IPStack API to obtain the latitud
 
    - `echo "IPSTACK_API_KEY=your_api_key_here" > .env`
 
-3. Clone the repository:
+2. Clone the repository:
 
    - `git clone https://github.com/yourusername/geoip-cli.git`
-   
+
    - `cd geoip-cli`
 
-4. Install dependencies:
+3. Install dependencies:
 
    - `npm install`
 
-6. Build the project:
+4. Build the project:
 
    - `npm run build`
-  
-7. Run the app:
+
+5. Run the app:
 
    - `npm start`
 
