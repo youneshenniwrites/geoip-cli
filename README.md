@@ -18,40 +18,40 @@ A command-line interface tool that queries the IPStack API to obtain the latitud
 ### Local Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/geoip-cli.git
-   cd geoip-cli
+   `git clone https://github.com/yourusername/geoip-cli.git`
+   `cd geoip-cli`
 
 2. Install dependencies:
-   npm install
+   `npm install`
 
 3. Build the project:
-   npm run build
+   `npm run build`
 
 4. Set up your IPStack API key:
-   echo "IPSTACK_API_KEY=your_api_key_here" > .env
+   echo `"IPSTACK_API_KEY=your_api_key_here" > .env`
 
 ### Docker Installation
 
 1. Build the Docker image:
-   docker build -t geoip-cli .
+   `docker build -t geoip-cli .`
 
 ## Usage
 
 ### Local Usage
 
-npm start
+`npm start`
 or after global installation:
-geoip 8.8.8.8
+`geoip 8.8.8.8`
 
 ### Docker Usage
 
-docker run --env IPSTACK_API_KEY=your_api_key_here geoip-cli 8.8.8.8
+`docker run --env IPSTACK_API_KEY=your_api_key_here geoip-cli 8.8.8.8`
 
 ## Output Format
 
 The tool outputs latitude and longitude as comma-separated values:
 
-37.7749,-122.4194
+`37.7749,-122.4194`
 
 ## Security Considerations
 
